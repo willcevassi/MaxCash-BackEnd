@@ -15,5 +15,5 @@ namespace maxcash.backend.model.enumeradores
          }
        
     }
-    }
+    
 }

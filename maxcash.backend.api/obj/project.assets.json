@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "/home/cevassi/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/home/juno/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/cevassi/Projetos/MaxCash-BackEnd/maxcash.backend.api/maxcash.backend.api.csproj",
+      "projectUniqueName": "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.api/maxcash.backend.api.csproj",
       "projectName": "maxcash.backend.api",
-      "projectPath": "/home/cevassi/Projetos/MaxCash-BackEnd/maxcash.backend.api/maxcash.backend.api.csproj",
-      "packagesPath": "/home/cevassi/.nuget/packages/",
-      "outputPath": "/home/cevassi/Projetos/MaxCash-BackEnd/maxcash.backend.api/obj/",
+      "projectPath": "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.api/maxcash.backend.api.csproj",
+      "packagesPath": "/home/juno/.nuget/packages/",
+      "outputPath": "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.api/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/home/cevassi/.nuget/NuGet/NuGet.Config"
+        "/home/juno/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"

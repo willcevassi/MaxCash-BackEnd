@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/cevassi/Projetos/MaxCash-BackEnd/maxcash.backend.model/maxcash.backend.model.csproj": {}
+    "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.model/maxcash.backend.model.csproj": {}
   },
   "projects": {
-    "/home/cevassi/Projetos/MaxCash-BackEnd/maxcash.backend.model/maxcash.backend.model.csproj": {
+    "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.model/maxcash.backend.model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cevassi/Projetos/MaxCash-BackEnd/maxcash.backend.model/maxcash.backend.model.csproj",
+        "projectUniqueName": "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.model/maxcash.backend.model.csproj",
         "projectName": "maxcash.backend.model",
-        "projectPath": "/home/cevassi/Projetos/MaxCash-BackEnd/maxcash.backend.model/maxcash.backend.model.csproj",
-        "packagesPath": "/home/cevassi/.nuget/packages/",
-        "outputPath": "/home/cevassi/Projetos/MaxCash-BackEnd/maxcash.backend.model/obj/",
+        "projectPath": "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.model/maxcash.backend.model.csproj",
+        "packagesPath": "/home/juno/.nuget/packages/",
+        "outputPath": "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.model/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/home/cevassi/.nuget/NuGet/NuGet.Config"
+          "/home/juno/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"

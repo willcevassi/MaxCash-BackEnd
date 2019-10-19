@@ -1,4 +1,7 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
+using maxcash.backend.model.enumeradores;
 
 namespace maxcash.backend.model.entidades
 {
@@ -10,8 +13,10 @@ namespace maxcash.backend.model.entidades
         public DateTime DataNascimento { get; set; }
         public string Senha { get; set; }
         public string Situacao { get; set; }
+        public IEnumerable<Conta> Contas { get; set; }
 
-        public Usuario() { }
+        public Usuario() { 
+        }
 
         public override void Validar()
         {

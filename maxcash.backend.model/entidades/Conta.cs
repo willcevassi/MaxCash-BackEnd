@@ -11,6 +11,13 @@ namespace maxcash.backend.model.entidades
         public Decimal Saldo { get; set; }
         public string Cor { get; set; }
         public TipoContaEnum TipoConta { get; set; }
+        public string DescricaoTipoConta { 
+            get
+            {
+                return EnumExtension.ToDescriptionString(this.TipoConta);
+            } 
+            set{} 
+        }
         public bool AdicionaDashBoard { get; set; }
 
         public Usuario Usuario { get; set; }

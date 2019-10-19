@@ -61,4 +61,6 @@ Global
 		{8D815478-EC32-4666-AAF1-6007D9640D09}.Release|x86.ActiveCfg = Release|Any CPU
 		{8D815478-EC32-4666-AAF1-6007D9640D09}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
 EndGlobal

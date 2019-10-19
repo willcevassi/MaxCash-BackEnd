@@ -1,0 +1,13 @@
+/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/bin/Debug/netcoreapp3.0/maxcash.backend.repository.deps.json
+/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/bin/Debug/netcoreapp3.0/maxcash.backend.repository.runtimeconfig.json
+/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/bin/Debug/netcoreapp3.0/maxcash.backend.repository.runtimeconfig.dev.json
+/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/bin/Debug/netcoreapp3.0/maxcash.backend.repository.dll
+/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/bin/Debug/netcoreapp3.0/maxcash.backend.repository.pdb
+/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/bin/Debug/netcoreapp3.0/maxcash.backend.model.dll
+/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/bin/Debug/netcoreapp3.0/maxcash.backend.model.pdb
+/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/obj/Debug/netcoreapp3.0/maxcash.backend.repository.csprojAssemblyReference.cache
+/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/obj/Debug/netcoreapp3.0/maxcash.backend.repository.AssemblyInfoInputs.cache
+/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/obj/Debug/netcoreapp3.0/maxcash.backend.repository.AssemblyInfo.cs
+/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/obj/Debug/netcoreapp3.0/maxcash.backend.repository.csproj.CopyComplete
+/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/obj/Debug/netcoreapp3.0/maxcash.backend.repository.dll
+/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/obj/Debug/netcoreapp3.0/maxcash.backend.repository.pdb

@@ -20,7 +20,7 @@ namespace maxcash.backend.model.entidades
         }
         public bool AdicionaDashBoard { get; set; }
 
-        public Usuario Usuario { get; set; }
+       // public Usuario Usuario { get; set; }
 
         public Conta()
         {
@@ -33,10 +33,10 @@ namespace maxcash.backend.model.entidades
         {
             if (string.IsNullOrEmpty(Nome))
                 AdicionarCritica("Nome não foi informado");
-            if (Usuario == null)
+/*             if (Usuario == null)
             {
                 AdicionarCritica("Usuário não definido");
-            }
+            } */
         }
     }
 }

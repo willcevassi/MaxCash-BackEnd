@@ -24,6 +24,72 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "projectReferences": {
+              "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.model/maxcash.backend.model.csproj": {
+                "projectPath": "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.model/maxcash.backend.model.csproj"
+              },
+              "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/maxcash.backend.repository.csproj": {
+                "projectPath": "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/maxcash.backend.repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.model/maxcash.backend.model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.model/maxcash.backend.model.csproj",
+        "projectName": "maxcash.backend.model",
+        "projectPath": "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.model/maxcash.backend.model.csproj",
+        "packagesPath": "/home/juno/.nuget/packages/",
+        "outputPath": "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/juno/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
             "projectReferences": {}
           }
         },
@@ -46,9 +112,74 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/maxcash.backend.repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/maxcash.backend.repository.csproj",
+        "projectName": "maxcash.backend.repository",
+        "projectPath": "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/maxcash.backend.repository.csproj",
+        "packagesPath": "/home/juno/.nuget/packages/",
+        "outputPath": "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/juno/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.model/maxcash.backend.model.csproj": {
+                "projectPath": "/home/juno/Projetos/MaxCash-BackEnd/maxcash.backend.model/maxcash.backend.model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
             },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

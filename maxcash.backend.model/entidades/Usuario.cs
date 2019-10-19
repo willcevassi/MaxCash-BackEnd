@@ -13,7 +13,7 @@ namespace maxcash.backend.model.entidades
         public DateTime DataNascimento { get; set; }
         public string Senha { get; set; }
         public string Situacao { get; set; }
-        public IEnumerable<Conta> Contas { get; set; }
+       // public IEnumerable<Conta> Contas { get; set; }
 
         public Usuario() { 
         }

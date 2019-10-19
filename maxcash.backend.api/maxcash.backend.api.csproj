@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\maxcash.backend.repository\maxcash.backend.repository.csproj" />
+    <ProjectReference Include="..\maxcash.backend.model\maxcash.backend.model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
   </ItemGroup>
 
 </Project>

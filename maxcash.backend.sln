@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maxcash.backend.repository"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maxcash.backend.api", "maxcash.backend.api\maxcash.backend.api.csproj", "{8D815478-EC32-4666-AAF1-6007D9640D09}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "artefatos_analise_sistema", "artefatos_analise_sistema", "{B1971130-F26F-11E9-B05D-4937EBDEA5E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

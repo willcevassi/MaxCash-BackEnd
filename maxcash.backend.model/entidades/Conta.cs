@@ -18,25 +18,26 @@ namespace maxcash.backend.model.entidades
             } 
             set{} 
         }
-        public bool AdicionaDashBoard { get; set; }
+        public bool ExibirNoDashBoard { get; set; }
 
-       // public Usuario Usuario { get; set; }
+        public int UsuarioId { get; set; }
+        public virtual Usuario Usuario { get; set; }
 
         public Conta()
         {
             Saldo = 0;
             TipoConta = 0;
-            AdicionaDashBoard = true;
+            ExibirNoDashBoard = true;
         }
 
         public override void Validar()
         {
             if (string.IsNullOrEmpty(Nome))
                 AdicionarCritica("Nome não foi informado");
-/*             if (Usuario == null)
+            if (Usuario == null)
             {
                 AdicionarCritica("Usuário não definido");
-            } */
+            } 
         }
     }
 }

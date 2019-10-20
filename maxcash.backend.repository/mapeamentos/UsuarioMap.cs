@@ -17,6 +17,7 @@ namespace maxcash.backend.repository.mapeamentos
             builder.Property(u => u.DataNascimento).HasColumnName("NASCIMENTO_USUARIO");
             builder.Property(u => u.Senha).HasColumnName("SENHA_USUARIO").HasMaxLength(480).IsRequired();
             builder.Property(u => u.Situacao).HasColumnName("SITUACAO_USUARIO");
+            builder.HasMany(u => u.Contas).WithOne(c => c.Usuario).HasForeignKey(c => c.UsuarioId).OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

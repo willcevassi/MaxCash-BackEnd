@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using maxcash.backend.repository.contexto;
 
 namespace maxcash.backend.repository.Migrations
 {
     [DbContext(typeof(MaxCashDbContext))]
-    partial class MaxCashDbContextModelSnapshot : ModelSnapshot
+    [Migration("20191020003153_V7")]
+    partial class V7
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -27,8 +29,7 @@ namespace maxcash.backend.repository.Migrations
                         .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Cor")
-                        .HasColumnName("COR_CONTA")
-                        .HasMaxLength(30);
+                        .HasColumnName("COR_CONTA");
 
                     b.Property<bool>("ExibirNoDashBoard")
                         .HasColumnName("EXIBIR_CONTA_DASH");
@@ -39,15 +40,13 @@ namespace maxcash.backend.repository.Migrations
                         .HasMaxLength(128);
 
                     b.Property<decimal>("Saldo")
-                        .HasColumnName("SALDO_CONTA")
-                        .HasColumnType("decimal(5,2)");
+                        .HasColumnName("SALDO_CONTA");
 
                     b.Property<int>("TipoConta")
                         .HasColumnName("TIPO_CONTA");
 
                     b.Property<int>("UsuarioId")
-                        .HasColumnName("ID_USUARIO")
-                        .HasColumnType("int");
+                        .HasColumnName("ID_USUARIO");
 
                     b.HasKey("ContaId");
 
